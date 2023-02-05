@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/4ba9c5d0e6.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Translate</title>
+</head>
+
+<body>
+    <div class="translate-app">
+        <div class="selects">
+            <ul>
+                <li>
+                    <select id="from-lang"></select>
+                    <span class="icons">
+                        <i id="from-volume" class="fas fa-volume-up"></i>
+                        <i id="from-copy" class="fas fa-copy"></i>
+                    </span>
+                </li>
+                <li><i class="fas fa-exchange-alt"></i></li>
+                <li>
+                    <span class="icons">
+                        <i id="to-volume" class="fas fa-volume-up"></i>
+                        <i id="to-copy" class="fas fa-copy"></i>
+                    </span>
+                    <select id="to-lang"></select>
+                </li>
+            </ul>
+
+        </div>
+
+        <div class="text-controls">
+            <textarea id="from-text" class="from-text" placeholder="Mətn daxil edin"></textarea>
+            <textarea id="to-text" class="to-text" placeholder="Tərcümə edilən..." readonly disabled></textarea>
+        </div>
+        <button id="btn-translate">Tərcümə et</button>
+
+    </div>
+
+
+
+
+    <script src="languages.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>

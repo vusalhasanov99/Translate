@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    outline: none;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: rgba(131, 247, 227, 0.747);
+}
+.translate-app{
+width: 800px;
+height: 100%;
+border: 1px solid gray;
+border-radius: 10px;
+background-color: white;
+}
+
+
+.selects ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    align-items: center;
+    padding: 15px;
+}
+textarea{
+    width: 400px;
+    height: 250px;
+    resize: none;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 18px;
+
+}
+.text-controls{
+    display: flex;
+}
+button{
+    padding: 10px;
+    float: right;
+}
